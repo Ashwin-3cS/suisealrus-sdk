@@ -1,0 +1,46 @@
+# Source files
+src/
+tsconfig.json
+.gitignore
+
+# Development files
+examples/
+*.test.ts
+*.test.js
+jest.config.js
+
+# Documentation (keep README.md)
+docs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_*/
+
+# Dependencies (will be installed by user)
+node_modules/
+
+# Build artifacts that shouldn't be published
+*.tsbuildinfo
