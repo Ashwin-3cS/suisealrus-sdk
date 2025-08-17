@@ -1,6 +1,6 @@
 {
   "name": "sui-sealrus-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js SDK for Sui blockchain integration with SEAL encryption and Walrus storage",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,14 @@
     "launch": "ts-node examples/basic-usage.ts",
     "start": "ts-node examples/basic-usage.ts"
   },
-  "keywords": ["sui", "blockchain", "encryption", "walrus", "seal", "sdk"],
+  "keywords": [
+    "sui",
+    "blockchain",
+    "encryption",
+    "walrus",
+    "seal",
+    "sdk"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
